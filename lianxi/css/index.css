@@ -1,0 +1,23 @@
+body {
+  font-size: 0.12rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+  display: -webkit-flex;
+  -webkit-flex-direction: column; }
+
+.header {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  text-align: center; }
+  .header ul {
+    display: -webkit-flex; }
+    .header ul li {
+      -webkit-flex: 1; }
+    .header ul .cur {
+      border-bottom: 1px solid #617EF6;
+      color: #617EF6; }
+
+/*# sourceMappingURL=index.css.map */
