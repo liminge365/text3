@@ -33,4 +33,45 @@ body {
     border-radius: 10px;
     margin-top: 10px; }
 
+.list {
+  padding-left: 0.2rem;
+  margin-top: 0.2rem; }
+  .list .zuo {
+    height: 0.4rem;
+    overflow: hidden;
+    float: left; }
+    .list .zuo span {
+      width: 0.6rem;
+      height: 0.6rem;
+      display: inline-block;
+      line-height: 1rem;
+      text-align: center;
+      background-color: #01ff70;
+      color: #fff;
+      transform: translate(-30px, -30px) rotate(-45deg); }
+  .list .title {
+    height: 0.4rem;
+    line-height: 0.4rem; }
+    .list .title p {
+      position: relative; }
+      .list .title p b {
+        border: 1px solid #01ff70;
+        color: #01ff70;
+        height: 0.2rem;
+        line-height: 0.2rem;
+        border-radius: 5px;
+        position: absolute;
+        right: 0.2rem;
+        top: 0.1rem; }
+  .list .center {
+    padding-right: 0.2rem; }
+    .list .center ul {
+      display: -webkit-flex;
+      text-align: center; }
+      .list .center ul li {
+        width: 25%; }
+        .list .center ul li span img {
+          width: 0.6rem;
+          height: 0.14rem; }
+
 /*# sourceMappingURL=index.css.map */
